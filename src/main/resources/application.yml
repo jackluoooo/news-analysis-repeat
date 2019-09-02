@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mysql://47.99.132.244/ice_insert?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+    username: ice_insert
+    password: F7MKxsm2RtzzNCiE
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
