@@ -10,6 +10,6 @@ spring:
 server:
   port: 12580
 
-logging:
-  level:
-    info.biocion.newsanalysisrepeat.mapper: DEBUG
+#logging:
+#  level:
+#    info.biocion.newsanalysisrepeat.mapper: DEBUG

@@ -32,7 +32,7 @@ public class DoBlackTask {
             Map map=new HashMap();
             List<BlackList> bls=blackListMapper.selectByMap(map);
             bls.forEach(blackList -> {
-                log.info("blacklist:{}",blackList);
+//                log.info("blacklist:{}",blackList);
                 newsService.doBlack(blackList.getBlackstr(),blackList.getStatus());
             });
 
