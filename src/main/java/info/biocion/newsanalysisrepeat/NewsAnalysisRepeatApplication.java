@@ -5,7 +5,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("info.biocion.newsanalysisrepeat.mapper")
 public class NewsAnalysisRepeatApplication {
 
     public static void main(String[] args) {

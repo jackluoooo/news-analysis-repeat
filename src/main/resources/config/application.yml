@@ -7,3 +7,9 @@ spring:
     password: F7MKxsm2RtzzNCiE
     driver-class-name: com.mysql.cj.jdbc.Driver
 
+server:
+  port: 12580
+
+logging:
+  level:
+    info.biocion.newsanalysisrepeat.mapper: DEBUG

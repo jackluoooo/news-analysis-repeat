@@ -21,4 +21,5 @@ public interface NewsMapper extends BaseMapper<News> {
 
     @Update("update news set is_search=1,is_need_check=1 where id=#{id}")
     int update(@Param("id") Long id);
+
 }
